@@ -1,0 +1,21 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Website</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+</head>
+<body>
+	<center>
+	<p style="color: white;">Password Generator</p>
+	<form method="POST">
+		<p style="color: white;">Minimum = 1, Maximum = 94</p>
+		<p style="color: white;">Enter the length of password: </p>
+		<p style="color: white;">Only use numbers</p>
+		<input type="text" name="password">
+	</form>
+	</center>
+</body>
+</html>
